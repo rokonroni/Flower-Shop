@@ -153,3 +153,20 @@ width: 550px;
     height: 350px;
     width: auto;
 }
+/* Instra section styles */
+.instra-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.instra-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.instra-item img{
+    width: 260px;
+    height: auto;
+    border-radius: 10px;
+}
