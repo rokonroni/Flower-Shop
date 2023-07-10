@@ -9,8 +9,8 @@ body {
 /* Shared styles */
 .btn {
   border-radius: 8px;
-  background: #e55473;
-  border: 1px solid #e55473;
+  background: #E55473;
+  border: 1px solid #E55473;
   padding: 20px 40px;
   color: #fff;
   font-size: 20px;
@@ -18,7 +18,7 @@ body {
 }
 .btn:hover {
   background-color: transparent;
-  color: #e55473;
+  color: #E55473;
 }
 .section-title {
   color: #272727;
@@ -120,4 +120,36 @@ header {
   color: rgba(39, 39, 39, 0.8);
   font-size: 18px;
   margin-bottom: 20px;
+}
+/* Offer section styles */
+.offer-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0px;
+}
+.offer-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+.offer-title {
+    color: #272727;
+font-size: 35px;
+font-weight: 800;
+}
+.offer-title span {
+    color: #E55473;
+}
+.offer-desc {
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+margin: 30px 0px;
+width: 550px;
+}
+.offer-img img {
+    height: 350px;
+    width: auto;
 }
