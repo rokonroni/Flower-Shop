@@ -19,6 +19,7 @@ body {
 .btn:hover {
   background-color: transparent;
   color: #e55473;
+  cursor: pointer;
 }
 .section-title {
   color: #272727;
@@ -197,9 +198,56 @@ header {
   justify-content: center;
   gap: 10px;
 }
-.cta-desc {
+.cta-desc,
+.order-desc {
   margin: 10px 200px 40px;
 }
 .submit-btn {
   padding: 15px 30px;
+}
+/* Order section styles */
+.order-section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 200px 0px 50px;
+  border-radius: 700px 700px 0px 0px;
+  background-image: url("../images/left.png"), url("../images/right.png");
+  background-repeat: no-repeat;
+  background-size: 28% 30%;
+  background-position: left bottom, right bottom;
+}
+form {
+  width: 65%;
+  margin: 70px auto 0px;
+  text-align: left;
+  text-align: center;
+}
+form label {
+  color: red;
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  text-align: left;
+  margin-left: 17%;
+  margin-bottom: 10px;
+}
+form input {
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+.select-input {
+  width: 480px;
+}
+form .order {
+  display: inline;
+  font-style: 18px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.order-btn {
+  margin-top: 20px;
+  width: 480px;
 }
