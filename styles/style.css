@@ -113,7 +113,13 @@ header {
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
+  text-decoration: underline;
 }
+.feature-img-title:hover {
+  cursor: pointer;
+  color: #e55473;
+}
+
 /* Service section styles */
 .service-section {
   width: 80%;
